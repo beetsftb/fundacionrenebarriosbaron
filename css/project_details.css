@@ -10,7 +10,7 @@
     font-family: 'agency-fb-regular', sans-serif;
     src:url(../assets/fonts/AGENCYR.TTF);
   }
-  
+
   
   /* Colors */
   :root {
@@ -153,6 +153,9 @@
   .breadcrumbs .page-header p {
     color: white;
     text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(14, 62, 102);
   }
   
   .breadcrumbs nav {
@@ -348,11 +351,25 @@
     color: rgb(14, 62, 102);
     font-family: var(--font-primary);
   }
+
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }
   
+
+  .img-fluid-1{
+    max-width: 30%;
+    height: auto;
+  }
+
   /*--------------------------------------------------------------
   # Desktop Navigation
   --------------------------------------------------------------*/
   @media (min-width: 1280px) {
+
+
+
     .navbar {
       padding: 0;
     }
@@ -488,6 +505,12 @@
       bottom: 0;
       transition: 0.3s;
       z-index: 9997;
+    }
+
+    
+    .img-fluid-1{
+      max-width: 100%;
+      height: auto;
     }
   
     .navbar ul {
@@ -1585,12 +1608,16 @@
   
   .service-details .services-img {
     margin-bottom: 20px;
+    width: 400;
+    height: 400;
+    
   }
   
   .service-details h3 {
     font-size: 28px;
     font-weight: 700;
-    color: var(--color-secondary);
+    text-align: center;
+    color:rgb(14, 62, 102);
   }
   
   .service-details h4 {
@@ -1600,7 +1627,7 @@
   }
   
   .service-details p {
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .service-details ul {
@@ -1618,7 +1645,7 @@
   .service-details ul i {
     font-size: 20px;
     margin-right: 8px;
-    color: var(--color-primary);
+    color: #059652;
   }
   
   /*--------------------------------------------------------------
@@ -1729,8 +1756,13 @@
   .footer {
     font-size: 14px;
     background-color: var(--color-secondary);
-    padding: 50px 0;
+    padding: 1rem 0;
     color: white;
+  }
+
+  hr{
+    height: 10px;
+    background-color:rgb(14, 62, 102);
   }
   
   .footer .footer-info .logo {
