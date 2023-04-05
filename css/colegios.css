@@ -10601,6 +10601,7 @@ a:hover {
       color: rgb(14, 62, 102,0.6);
       white-space: nowrap;
       transition: 0.3s;
+      cursor: pointer;
     }
   
     .navbar a i,
@@ -10620,7 +10621,7 @@ a:hover {
   
     .navbar .get-a-quote,
     .navbar .get-a-quote:focus {
-      background: var(--color-primary);
+      background: rgb(14, 62, 102,0.6);
       padding: 8px 20px;
       margin-left: 30px;
       border-radius: 4px;
@@ -10630,7 +10631,7 @@ a:hover {
     .navbar .get-a-quote:hover,
     .navbar .get-a-quote:focus:hover {
       color: #fff;
-      background: #2756ff;
+      background: rgb(14, 62, 102,0.6);
     }
   
     .navbar .dropdown ul {
@@ -10668,7 +10669,7 @@ a:hover {
     .navbar .dropdown ul a:hover,
     .navbar .dropdown ul .active:hover,
     .navbar .dropdown ul li:hover>a {
-      color: var(--color-primary);
+      color: rgb(14, 62, 102,0.6);
     }
   
     .navbar .dropdown:hover>ul {
