@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'agency-fb-regular', sans-serif;
+    src:url(../assets/fonts/AGENCYR.TTF);
+  }
+  
+.card-title{
+    text-align: center;
+    font-family: 'agency-fb-regular', sans-serif;
+    font-weight: 700;
+    color: #37517e;
+    margin-bottom: 25px;
+    text-decoration: underline;
+
+}
+
+
+.card-body{
+    margin-top: 30px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    color: #37517e;
+    font-family: 'agency-fb-regular', sans-serif;
+    
+}
+
+.table>:not(caption)>*>*{
+    color:#37517e;
+    font-family: 'agency-fb-regular', sans-serif;
+    text-align: center;
+}
