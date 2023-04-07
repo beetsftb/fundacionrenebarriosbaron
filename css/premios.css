@@ -29,3 +29,15 @@
     font-family: 'agency-fb-regular', sans-serif;
     text-align: center;
 }
+
+  #hr{
+    height: 10px;
+    background-color:rgb(14, 62, 102);
+  }
+  
+
+  @media screen and (max-width: 600px)  {
+    .priority-2{
+            display:none;
+    }
+}
