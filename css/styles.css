@@ -10719,3 +10719,25 @@ a:hover {
     }
   }
   
+
+  .contact .info-item i {
+    font-size: 20px;
+    background: rgba(14, 29, 52, 0.8);
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+
+.contact .info-item  {
+
+  font-family: 'agency-fb-regular', sans-serif;
+  color: rgba(14, 29, 52, 0.8);
+
+}
