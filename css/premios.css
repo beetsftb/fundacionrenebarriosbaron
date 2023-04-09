@@ -34,7 +34,30 @@
     height: 10px;
     background-color:rgb(14, 62, 102);
   }
-  
+
+.btn-primary{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color:rgb(14, 62, 102);
+  border-color: rgb(14, 62, 102);
+  font-family: 'agency-fb-regular', sans-serif;
+  font-weight: 700;
+}
+
+.btn-primary:hover{
+  background-color:rgb(172, 189, 189);
+  border-color: rgb(172, 189, 189);
+  color:rgb(14, 62, 102);
+font-weight: 700;
+}
+
+
+
+.button-premios{
+  text-align: center;
+}
+
 
   @media screen and (max-width: 600px)  {
     .priority-2{
